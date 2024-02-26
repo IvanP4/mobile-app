@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/activity_contact_map"
     tools:context=".ContactMapActivity">
+
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -42,4 +44,31 @@
             tools:ignore="HardcodedText,RedundantDescriptionCheck" />
     </LinearLayout>
 
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupMapType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RadioButton
+            android:id="@+id/radioButtonSatellite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satellite" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
