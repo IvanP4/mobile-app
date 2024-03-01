@@ -11,9 +11,15 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permisson android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
-        android:value="AIzaSyCsQELFZoNWngnnLhm4hi_8wJ5zXm6Bqms" />
+        android:value="99:49:13:67:DB:65:54:67:B0:50:98:7D:F6:B4:F4:5A:51:C5:B4:93" />
     <uses-library
         android:name="org.apache.http.legacy"
         android:require="false"
